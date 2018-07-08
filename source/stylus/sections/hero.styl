@@ -1,0 +1,107 @@
+/* HERO.STYL ======================================= */
+
+#hero
+    //background: colorGray3 url(../img/hero/hero-bg2.jpg) center no-repeat
+    background: colorGray1
+    background-size: cover
+    height: calc(100vh - 100px)
+    flexbox()
+    flex-center()
+    position: relative
+    z-index: 1
+
+
+/* HERO IMG Slider */
+.cb-slideshow,
+.cb-slideshow:after
+    position absolute
+    width 100%
+    height 100%
+    top 0px
+    left 0px
+    z-index -1
+    background-color #1E1E1E
+
+.cb-slideshow
+    li
+        span
+            width 100%
+            height 100%
+            position absolute
+            top 0px
+            left 0px
+            color transparent
+            background-size cover
+            background-position 50% 50%
+            background-repeat none
+            opacity 0
+            z-index 0
+            animation imageAnimation 36s linear infinite 0s
+        &:nth-child(1)
+            span
+                background-image url("../img/hero/hero-bg1.jpg")
+        &:nth-child(2)
+            span
+                background-image url("../img/hero/hero-bg2.jpg")
+                animation-delay 6s
+            div
+                animation-delay 6s
+        &:nth-child(3)
+            span
+                background-image url("../img/hero/hero-bg3.jpg")
+                animation-delay 12s
+            div
+                animation-delay 12s
+        &:nth-child(4)
+            span
+                background-image url("../img/hero/hero-bg4.jpg")
+                animation-delay 18s
+            div
+                animation-delay 18s
+        &:nth-child(5)
+            span
+                background-image url("../img/hero/hero-bg5.jpg")
+                animation-delay 24s
+            div
+                animation-delay 24s
+        &:nth-child(6)
+            span
+                background-image url("../img/hero/hero-bg3.jpg")
+                animation-delay 30s
+            div
+                animation-delay 30s
+
+/* Animation for the slideshow images */
+@-webkit-keyframes imageAnimation {
+    0% { opacity: 0;
+    -webkit-animation-timing-function: ease-in; }
+    8% { opacity: 1;
+    -webkit-animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+@-moz-keyframes imageAnimation { 
+    0% { opacity: 0;
+    -moz-animation-timing-function: ease-in; }
+    8% { opacity: 1;
+    -moz-animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+@-o-keyframes imageAnimation {
+    0% { opacity: 0;
+    -o-animation-timing-function: ease-in; }
+    8% { opacity: 1;
+    -o-animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+@-ms-keyframes imageAnimation {
+    0% { opacity: 0;
+    -ms-animation-timing-function: ease-in; }
+    8% { opacity: 1;
+    -ms-animation-timing-function: ease-out; }
+}

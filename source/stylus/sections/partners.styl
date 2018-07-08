@@ -1,0 +1,65 @@
+/* PARTNERS.STYL ======================================= */
+
+#content.partners
+
+    .partners-list
+        flexbox()
+        flex-flow: row wrap
+        align-items: flex-start
+        margin-top: 50px
+
+        /* Article */
+        .partners-item
+            position: relative
+            width: 150px
+            min-height: 260px
+            flexbox()
+            flex-flow: column nowrap
+            align-items: center
+            margin-right: 52px
+            margin-bottom: 40px
+            font-family: font3
+            color: colorGray4
+
+            /* Overlay on hover */
+            &:hover .partners-item__overlay
+                opacity: 1
+
+            /* Gap between items */
+            &:nth-child(5n)
+                margin-right: 0
+
+            .partners-item__overlay
+                opacity: 0
+                position: absolute
+                top: 0
+                left: 0
+                background: colorRed09
+                flexbox()
+                flex-center()
+                flex-flow: column nowrap
+                z-index: 1
+                transition(.5s)
+
+                p
+                    font-family: font2
+                    font-weight: 500
+                    font-size: 16px
+                    color: colorWhite
+
+
+            .partners-item__img,
+            .partners-item__overlay
+                width: 150px
+                height: 150px
+                border-radius: 100%
+
+
+            .partners-item__title
+                font-size: 18px
+                font-weight: 900
+                margin-top: 14px
+                text-align: center
+
+            .redline
+                margin: 14px 0

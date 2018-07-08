@@ -1,0 +1,88 @@
+/* FOOTER.STYL ======================================= */
+
+#footer
+    background: colorGray2
+    color: colorGray7
+    padding: 50px 0
+
+
+    .card-wrap
+        flexbox()
+        justify-content: space-between
+
+        .footer-card
+            background: colorGray3
+            width: 280px
+            height: 140px
+            flexbox()
+            flex-flow: column nowrap
+            flex-center()
+            font-family: font2
+            font-size: 14px
+            font-weight: 500
+            color: colorWhite
+
+            .footer-card__icon
+                margin-bottom: 10px
+
+            .footer-card__text
+                line-height: 20px
+
+
+    .footer-col-wrap
+        flexbox()
+        flex-flow: row nowrap
+        justify-content: space-between
+        align-items: flex-start
+        margin-top: 50px
+
+        .footer-col
+            width: 280px
+
+            .footer-title
+                font-family: font2
+                font-size: 20px
+                font-weight: 500
+                text-transform: uppercase
+                color: colorWhite
+                margin-bottom: 10px
+
+                &:after
+                    position: absolute
+                    content: ''
+                    display: block
+                    width: 30px
+                    height: 1px
+                    background: colorRed
+                    margin: 10px 0 0 -2px
+
+            .footer-text
+                font-family: font3
+                font-weight: 500
+                line-height: 20px
+
+            img
+                margin-top: 20px
+
+
+
+
+
+
+
+
+.footer-bot
+    background: colorGray1
+    height: 50px
+    flexbox()
+    flex-center()
+    text-align: center
+    color: colorGray7
+
+    a
+        margin-left: 4px
+        font-weight: bold
+
+        &:hover
+            color: colorRed
+

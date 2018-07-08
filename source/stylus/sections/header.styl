@@ -1,0 +1,111 @@
+/* HEADER.STYL ======================================= */
+
+#header
+    background: colorWhite
+    width: 100%
+    position: relative
+    /* z-index: 1 */
+
+
+    nav.main-nav
+        flexbox()
+        flex-flow: row nowrap
+        justify-content: space-between
+        align-items: center
+        height: 100px
+
+        .main-nav__logo
+            width: 200px
+            height: 50px
+
+            img
+                width: auto
+                height: 100%
+
+        /* Main Nav */
+        .main-nav__nav
+
+            ul
+                flexbox()
+                flex-flow: row nowrap
+                justify-content: space-between
+
+                li
+                    margin-right: 30px
+
+                    &:last-child
+                        margin-right: 0
+
+                    a
+                        font-family: font2
+                        color: colorGray4
+                        font-weight: 500
+                        font-size: 16px
+                        text-transform: uppercase
+
+                        &:hover
+                            color: colorRed
+
+                    a.active
+                        color: colorRed
+
+                        &:after
+                            position: absolute
+                            content: ''
+                            display: block
+                            width: 30px
+                            height: 2px
+                            background: colorRed
+                            margin: 6px 0 0 -5px
+
+
+/* Mobile Nav Button */
+.main-nav__m-open,
+.article-nav__m-open
+    width: 30px
+    height: 30px
+
+
+/* Mobile Main Nav */
+.main-nav__mobile-wrap,
+.article-nav__mobile-wrap
+    position: fixed
+    overflow: auto
+    top: 0
+    right: -100%
+    width: 90%
+    height: 100vh
+    background: colorRed
+    background: linear-gradient(to bottom, colorRed, colorRedDark)
+    color: colorWhite
+    z-index: 20
+    box-shadow(0 0 50px colorBlack06)
+    transition(.5s)
+
+    .main-nav__m-close,
+    .article-nav__m-close
+        flexbox()
+        flex-center()
+        width: 40px
+        height: 40px
+        margin: 30px 30px 0 auto
+        fill: colorWhite
+
+    .main-nav__mobile-nav,
+    .article-nav__mobile-nav
+        width: 70%
+        margin: 50px auto 0 auto
+
+        ul
+            li
+                margin-bottom: 30px
+
+                a
+                    font-size: 24px
+                    box-sizing()
+                    padding: 10px 0
+
+
+
+
+

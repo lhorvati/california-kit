@@ -1,0 +1,155 @@
+/ $pageTitle = O nama
+/ @include _head
+
+%body
+
+  / HEADER SECTION **************************************
+  / $navLink3 = active
+  / @include _header
+
+
+  / ARTICLE NAV SECTION **************************************
+  / @include _articleNav
+
+
+  / CONTENT - ARTICLES INFO SECTION **************************************
+  #content.section.about
+    .container-jumbo
+
+      / About
+      .section-row
+        .container
+          .group.group--right
+            .group__content
+              .title-block.title-block--left
+                %h1.title O <span>nama</span>
+              %p California trade d.o.o. je tvrtka specijalizirana za veleprodaju i maloprodaju staklene ambalaže. Osnovana je 1995. godine i danas je generalni distributer za srednju i južnu Dalmaciju programa tvrtke <span class="text-red">Vetropack</span>. U našem asortimanu možete naći boce za vino, ulje, žestoka pića, kao i ukrasne boce koje mogu svoju primjenu naći za bilo kakvu tekućinu koju želite pohraniti.
+              %p Osim boca nudimo vam i staklenke za prehrambene namirnice, kao i čepove, poklopce, PVC i kartonsku ambalažu.
+              %p Tvrtka je smještena u sklopu trgovačke zone TTTS, Stobreč, oko 5 km od Splita u smjeru Omiša.
+            .group__image
+
+
+  / COMPANY INFO SECTION **************************************
+  #company-info.section
+    .section-row.company-info
+      .container
+        %p
+          CALIFORNIA TRADE D.O.O. TTTS, Put Vrbovnika bb, 21311 Stobreč, Hrvatska
+          %br/ 
+          OIB : 31522836079, IBAN : HR1423600001101656181, SWIFT - ZABA HR 2X
+          %br/ 
+          RADNO VRIJEME TRGOVINE : Od ponedjeljka do petka = 7 - 15h, Subotom i Nedjeljom zatvoreno.
+
+
+
+  #gallery.section
+    .container-jumbo
+
+      .section-row
+        .container
+          .group.group--left
+            .group__content
+              .title-block.title-block--left
+                %h1.title Galerija <span>slika</span>
+
+      / Gallery
+      .section-row
+
+        .gallery
+
+          /1
+          %a.gallery-item(href="img/gallery/hero-bg1.jpg" data-lightbox="gallery1" data-title="My caption")
+            .gallery__img
+            %span.gallery__label Slika neki naziv
+
+          /2
+          %a.gallery-item(href="img/gallery/hero-bg2.jpg" data-lightbox="gallery1" data-title="My caption")
+            .gallery__img
+            %span.gallery__label Slika neki naziv
+
+          /3
+          %a.gallery-item(href="img/gallery/hero-bg3.jpg" data-lightbox="gallery1" data-title="My caption")
+            .gallery__img
+            %span.gallery__label Slika neki naziv
+
+          /4
+          %a.gallery-item(href="img/gallery/hero-bg4.jpg" data-lightbox="gallery1" data-title="My caption")
+            .gallery__img
+            %span.gallery__label Slika neki naziv
+
+          /5
+          %a.gallery-item(href="img/gallery/hero-bg5.jpg" data-lightbox="gallery1" data-title="My caption")
+            .gallery__img
+            %span.gallery__label Slika neki naziv
+
+          /6
+          %a.gallery-item(href="img/gallery/hero-bg1.jpg" data-lightbox="gallery1" data-title="My caption")
+            .gallery__img
+            %span.gallery__label Slika neki naziv
+
+          /7
+          %a.gallery-item(href="img/gallery/hero-bg1.jpg" data-lightbox="gallery1" data-title="My caption")
+            .gallery__img
+            %span.gallery__label Slika neki naziv
+
+          /8
+          %a.gallery-item(href="img/gallery/hero-bg1.jpg" data-lightbox="gallery1" data-title="My caption")
+            .gallery__img
+            %span.gallery__label Slika neki naziv
+
+          /9
+          %a.gallery-item(href="img/gallery/hero-bg1.jpg" data-lightbox="gallery1" data-title="My caption")
+            .gallery__img
+            %span.gallery__label Slika neki naziv
+
+          /10
+          %a.gallery-item(href="img/gallery/hero-bg1.jpg" data-lightbox="gallery1" data-title="My caption")
+            .gallery__img
+            %span.gallery__label Slika neki naziv
+
+
+
+
+
+
+  / VETROPACK SECTION **************************************
+  #vetropack.section
+    .container
+      %h1.title Vetropack
+      %span.redline
+      %p Vetropack Straža d.d. proizvodi, prodaje i distribuira staklenu ambalažu na tržištima Hrvatske, Slovenije, Bosne i Hercegovine, Srbije, Crne Gore, Makedonije, kao i na tržištima ostalih zemalja jugoistočne Europe. Tvornica se nalazi u Humu na Sutli.
+      %a.btn.btn--white(href="http://www.vetropack.hr/hr/" target="_blank") Vetropack.hr
+
+
+
+
+  / MAP SECTION **************************************
+  #google-map.section
+    :javascript
+      function initMap() {
+        var uluru = {lat: 43.518136, lng: 16.532670};
+        var map = new google.maps.Map(document.getElementById('google-map'), {
+          zoom: 18,
+          scrollwheel: false,
+          navigationControl: false,
+          mapTypeControl: false,
+          scaleControl: false,
+          draggable: true,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    %script(async="" defer="defer" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXlQeBAAEd0J0DwpJy0-Z1vP8lZr0DTeM&callback=initMap")
+
+
+
+
+
+
+
+
+  / FOOOTER SECTION **************************************
+  / @include _footer

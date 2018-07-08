@@ -1,0 +1,85 @@
+/ $articleImg = futura-375a.jpg
+/ $articleImg2 = futura-375b.jpg
+/ $articleName = Futura
+/ $articleVol = 375 ml
+/ $articleMouth = OB17,5
+/ $articleColor = cuvee, flint (bezbojna)
+/ $articleWeight = 500 g
+/ $articleHeight = 331 mm
+/ $articleCategory = wine
+/ $articleDesc = Nema napomene
+
+
+/ $pageTitle = Detalji aktikla
+/ @include _head
+
+%body
+
+  / HEADER SECTION **************************************
+  / $navLink2 = active
+  / @include _header
+
+
+  / ARTICLE NAV SECTION **************************************
+  / @include _articleNav
+
+
+
+  / CONTENT - ARTICLES INFO SECTION **************************************
+  #content.articles-info.section
+
+    .section-row
+      .container
+
+        / Article gallery
+        .article-gallery
+          .article-gallery__main
+            %a(href="img/articles/<!-- $articleImg? -->" data-lightbox="articles")
+              %img(src="img/articles/<!-- $articleImg? -->")
+          .article-gallery__list
+            %a(href="img/articles/<!-- $articleImg2? -->" data-lightbox="acticles")
+              %img(src="img/articles/<!-- $articleImg2? -->")
+
+
+        / Article specs
+        .article-specs
+          .title-block.title-block--left
+            %h1.title <!-- $articleName? --> <span class="small"><!-- $articleVol? --></span>
+
+          .specs-wrap
+
+            .specs
+              %h3.specs__title Specifikacija
+              .specs__table
+                .specs__row
+                  .specs__name Grlo:
+                  .specs__desc <!-- $articleMouth? -->
+                .specs__row
+                  .specs__name Boja:
+                  .specs__desc <!-- $articleColor? -->
+                .specs__row
+                  .specs__name Težina:
+                  .specs__desc <!-- $articleWeight? -->
+                .specs__row
+                  .specs__name Visina:
+                  .specs__desc <!-- $articleHeight? -->
+                .specs__row
+                  .specs__name Volumen
+                  .specs__desc <!-- $articleVol? -->
+
+
+            .specs
+              %h3.specs__title Napomena
+              .specs__table
+                .specs__row
+                  .specs__desc <!-- $articleDesc? -->
+
+
+
+
+
+
+
+
+  / FOOOTER SECTION **************************************
+  / @include _footer

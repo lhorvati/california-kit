@@ -1,0 +1,100 @@
+/* ARTICLE NAV.STYL ======================================= */
+
+#article-bar
+    background: colorGray2
+    height: 60px
+    flexbox()
+    flex-center()
+    box-shadow(0 0 15px 0 rgba(0,0,0,0.50))
+
+    .article-nav
+        width: 960px
+        height: 100%
+
+        > ul
+            position: relative
+            flexbox()
+            flex-flow: row nowrap
+            justify-content: space-around
+
+            li.dropdown,
+            a
+                font-family: font2
+                font-size: 16px
+                font-weight: 700
+                text-transform: uppercase
+                color: colorWhite
+                flexbox()
+                align-items: center
+                height: 60px
+                box-sizing()
+                padding: 0 10px
+
+                &:hover
+                    color: colorRed
+
+
+            li.dropdown
+                cursor: pointer
+                flexbox()
+                transition(.3s)
+                noselect()
+
+
+            /* Dropdown */
+            .dropdown-list
+                display: none
+                position: absolute
+                left: 0
+                top: 60px
+                min-width: 220px
+                background: colorWhite
+                box-shadow(0 0 10px 0 rgba(0,0,0,0.50))
+                z-index: 100
+                flex-flow: column nowrap
+                padding: 10px 30px
+
+                /* Dropdown list hover */
+                &:hover
+                    flexbox()
+
+
+                a
+                    flexbox()
+                    align-items: center
+                    font-family: font2
+                    font-size: 16px
+                    font-weight: 500
+                    color: colorGray4
+                    text-transform: none
+                    height: 50px
+
+                    &:hover
+                        color: colorRed
+                        margin-left: 10px
+
+
+            /* Link hover */
+            li.dropdown:hover ~ .dropdown-list
+                flexbox() !important
+
+
+
+
+    /* Mobile Article Nav  */
+    .article-nav-mobile
+        flexbox()
+        flex-flow: row nowrap
+        justify-content: space-between
+        align-items: center
+        display: none
+
+        .article-nav-mobile__text
+            font-family: font2
+            font-size: 18px
+            font-weight: 500
+            color: colorWhite
+            text-transform: uppercase
+            letter-spacing: -0.7px
+            margin-right: 20px
+

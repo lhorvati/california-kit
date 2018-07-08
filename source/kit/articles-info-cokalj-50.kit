@@ -1,0 +1,76 @@
+<!-- $articleImg = cokalj-50.jpg -->
+<!-- $articleName = Čokalj -->
+<!-- $articleVol = 50 ml -->
+<!-- $articleMouth = 16 mm -->
+<!-- $articleColor = flint (bezbojna) -->
+<!-- $articleWeight = 80 g -->
+<!-- $articleHeight = 116 mm -->
+<!-- $articleCategory = decoration -->
+<!-- $articleDesc = Nema napomene -->
+<!-- $pageTitle = Detalji aktikla -->
+<!-- @include _head -->
+<body>
+  <!-- HEADER SECTION ************************************** -->
+  <!-- $navLink2 = active -->
+  <!-- @include _header -->
+  <!-- ARTICLE NAV SECTION ************************************** -->
+  <!-- @include _articleNav -->
+  <!-- CONTENT - ARTICLES INFO SECTION ************************************** -->
+  <div class='articles-info section' id='content'>
+    <div class='section-row'>
+      <div class='container'>
+        <!-- Article gallery -->
+        <div class='article-gallery'>
+          <div class='article-gallery__main'>
+            <a data-lightbox='articles' href='img/articles/<!-- $articleImg? -->'>
+              <img src='img/articles/<!-- $articleImg? -->'>
+            </a>
+          </div>
+        </div>
+        <!-- Article specs -->
+        <div class='article-specs'>
+          <div class='title-block title-block--left'>
+            <h1 class='title'><!-- $articleName? --> <span class="small"><!-- $articleVol? --></span></h1>
+          </div>
+          <div class='specs-wrap'>
+            <div class='specs'>
+              <h3 class='specs__title'>Specifikacija</h3>
+              <div class='specs__table'>
+                <div class='specs__row'>
+                  <div class='specs__name'>Grlo:</div>
+                  <div class='specs__desc'><!-- $articleMouth? --></div>
+                </div>
+                <div class='specs__row'>
+                  <div class='specs__name'>Boja:</div>
+                  <div class='specs__desc'><!-- $articleColor? --></div>
+                </div>
+                <div class='specs__row'>
+                  <div class='specs__name'>Težina:</div>
+                  <div class='specs__desc'><!-- $articleWeight? --></div>
+                </div>
+                <div class='specs__row'>
+                  <div class='specs__name'>Visina:</div>
+                  <div class='specs__desc'><!-- $articleHeight? --></div>
+                </div>
+                <div class='specs__row'>
+                  <div class='specs__name'>Volumen</div>
+                  <div class='specs__desc'><!-- $articleVol? --></div>
+                </div>
+              </div>
+            </div>
+            <div class='specs'>
+              <h3 class='specs__title'>Napomena</h3>
+              <div class='specs__table'>
+                <div class='specs__row'>
+                  <div class='specs__desc'><!-- $articleDesc? --></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- FOOOTER SECTION ************************************** -->
+  <!-- @include _footer -->
+</body>

@@ -1,0 +1,48 @@
+/* CONTACT.STYL ======================================= */
+
+#content.contact
+    min-height: 800px
+    background: #ccc
+
+
+    .contacts-wrap
+        flexbox()
+        flex-flow: row nowrap
+        justify-content: space-between
+        align-items: flex-start
+        margin-top: 40px
+
+        .contacts-col
+            flexbox()
+            flex-flow: column nowrap
+            justify-content: flex-start
+            align-items: center
+            width: 450px
+            min-height: 500px
+            text-align: center
+            background: rgba(255,255,255,.1)
+            padding: 30px 0
+
+            /* Contact Box */
+            .contacts-box
+                flexbox()
+                flex-flow: column nowrap
+                margin-bottom: 30px
+
+                .contacts-box__title,
+                .contacts-box__text
+                    font-family: font2
+                    color: colorWhite
+                    line-height: 25px
+
+                .contacts-box__title
+                    font-size: 20px
+                    font-weight: 900
+
+                .contacts-box__text
+                    font-size: 16px
+                    font-weight: 400
+
+                    span
+                        font-weight: 600
+

@@ -1,0 +1,44 @@
+/* GALLERY.STYL ======================================= */
+
+#gallery.section
+    margin-top: 60px
+
+    .gallery
+        flexbox()
+        flex-flow: row wrap
+        align-items: flex-start
+        justify-content: space-around
+        padding: 30px 0
+
+        .gallery-item
+            display: block
+            width: 255px
+            height: 300px
+            background: colorRed09
+            overflow: hidden
+            position: relative
+            margin-right: 16px
+            margin-bottom: 16px
+            box-shadow(0 0 10px rgba(0,0,0,0.3))
+
+            &:nth-child(5n)
+                margin-right: 0
+
+
+            &:hover
+                transform-scale(1.1)
+                box-shadow(0 0 30px rgba(0,0,0,0.5))
+
+
+            .gallery__img
+                max-width: 280px
+                height: auto
+
+            .gallery__label
+                position: absolute
+                bottom: 30px
+                right: 30px
+                color: colorWhite
+                font-family: font3
+                font-size: 18px
+                font-weight: 900

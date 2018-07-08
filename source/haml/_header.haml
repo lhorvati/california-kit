@@ -1,0 +1,41 @@
+#header.section
+  .container
+
+    / MAIN NAV
+    %nav.main-nav
+      .main-nav__logo
+        %a(href="https://california-trade.hr")
+          %img(src="img/california-logo.svg" alt="California Trade")
+      .main-nav__nav.mobile-hide
+        %ul
+          %li
+            %a{:class => "<!-- $navLink1? -->", :href => "index.html"} Naslovnica
+          %li
+            %a{:class => "<!-- $navLink2? -->", :href => "articles.html"} Asortiman
+          %li
+            %a{:class => "<!-- $navLink3? -->", :href => "about.html"} O nama
+          %li
+            %a{:class => "<!-- $navLink4? -->", :href => "partners.html"} Partneri
+          %li
+            %a{:class => "<!-- $navLink5? -->", :href => "contact.html"} Kontakt
+
+      .main-nav__m-open.desktop-hide.mobile-show
+        %svg(height="100%" viewbox="0 0 28 17" width="100%" xmlns="http://www.w3.org/2000/svg")
+          %path(d="M1 0c-2 1.444 0 2.889 0 2.889h26S29 1.444 27 0H1zm0 7c-2 1.444 0 2.889 0 2.889h26S29 8.444 27 7H1zm0 7c-2 1.444 0 2.889 0 2.889h26s2-1.445 0-2.889H1z" fill="#BD3535" fill-rule="evenodd")
+
+    .main-nav__mobile-wrap
+      .main-nav__m-close
+        %svg(height="100%" viewbox="0 0 24 24" width="100%" xmlns="http://www.w3.org/2000/svg")
+          %path(d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z")
+      .main-nav__mobile-nav
+        %ul
+          %li
+            %a{:class => "<!-- $navLink1? -->", :href => "index.html"} Naslovnica
+          %li
+            %a{:class => "<!-- $navLink2? -->", :href => "articles.html"} Asortiman
+          %li
+            %a{:class => "<!-- $navLink3? -->", :href => "about.html"} O nama
+          %li
+            %a{:class => "<!-- $navLink4? -->", :href => "partners.html"} Partneri
+          %li
+            %a{:class => "<!-- $navLink5? -->", :href => "contact.html"} Kontakt
