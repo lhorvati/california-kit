@@ -193,12 +193,6 @@
 	],
 "creatorBuild": "26330",
 "files": {
-	"\/build": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/build\/build",
-		"oF": 0
-		},
 	"\/README.md": {
 		"cB": 0,
 		"cS": 0,
@@ -5195,6 +5189,16 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/source\/js\/ScrollTrigger.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/build\/min\/ScrollTrigger.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/source\/kit\/_articleNav.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -6958,7 +6962,7 @@
 	"displayValue": "Website-kit",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_green",
-	"lastBuiltDate": 552768870
+	"lastBuiltDate": 576400157
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

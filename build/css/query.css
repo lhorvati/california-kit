@@ -147,6 +147,9 @@
     display: flex;
     color: #f00;
   }
+  #article-bar .container {
+    width: 100%;
+  }
   #content.section .glass .glass__box {
     width: 80%;
   }

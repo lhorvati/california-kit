@@ -174,22 +174,22 @@
     <div class='container-jumbo'>
       <!-- Staklo -->
       <div class='section-row glass glass--left'>
-        <div class='glass__img img-zatvaraci'></div>
-        <div class='glass__box'>
+        <div class='glass__img img-zatvaraci' data-scroll='toggle(.fromBottomIn, .fromBottomOut), centerHorizontal, centerVertical, once'></div>
+        <div class='glass__box' data-scroll='toggle(.fromBottomIn, .fromBottomOut), centerHorizontal, centerVertical, once'>
           U našem asortimanu boca za vino možemo ponuditi boce različitih zapremina, boja stakla i oblika koji mogu zadovoljiti izborom svakog vinara ili ljubitelja vina. Zapremine boca su 1000 ml i 750 ml, a boje su zelena, bijela, olive i cuvee.
         </div>
       </div>
       <!-- Zippers -->
       <div class='section-row zippers'>
         <div class='container'>
-          <div class='title-block title-block--center'>
+          <div class='title-block title-block--center' data-scroll='toggle(.fromBottomIn, .fromBottomOut), centerHorizontal, centerVertical, once'>
             <h1 class='title'>Zatvarači</h1>
           </div>
         </div>
       </div>
       <div class='section-row'>
         <div class='container'>
-          <div class='article-list'>
+          <div class='article-list' data-scroll='toggle(.fromBottomIn, .fromBottomOut), centerHorizontal, centerVertical, once'>
             <a class='article-item' href='articles-info-zatvaraci-alu-navoj.html'>
               <div class='article-item__overlay'>
                 <svg height='27px' version='1.1' viewbox='86 136 27 27' width='27px' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg'>
@@ -275,7 +275,7 @@
     <div class='container'>
       <!-- Card Wrap -->
       <div class='card-wrap'>
-        <div class='footer-card'>
+        <div class='footer-card' data-scroll='toggle(.fromBottomIn, .fromBottomOut), centerHorizontal, centerVertical, once'>
           <div class='footer-card__icon'>
             <svg height='25px' version='1.1' viewbox='112 26 25 25' width='25px' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg'>
               <g fill-rule='evenodd' fill='none' id='phone' stroke-width='1' stroke='none' transform='translate(113.000000, 27.000000)'>
@@ -290,7 +290,7 @@
             Fax:  021 32 63 72
           </div>
         </div>
-        <div class='footer-card'>
+        <div class='footer-card' data-scroll='toggle(.fromBottomIn, .fromBottomOut), centerHorizontal, centerVertical, once'>
           <div class='footer-card__icon'>
             <svg height='25px' version='1.1' viewbox='432 26 25 25' width='25px' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg'>
               <g fill-rule='evenodd' fill='none' id='email' stroke-width='1' stroke='none' transform='translate(433.000000, 27.000000)'>
@@ -303,7 +303,7 @@
             <a href='mailto:california-trade@st.t-com.hr'>california-trade@st.t-com.hr</a>
           </div>
         </div>
-        <div class='footer-card'>
+        <div class='footer-card' data-scroll='toggle(.fromBottomIn, .fromBottomOut), centerHorizontal, centerVertical, once'>
           <div class='footer-card__icon'>
             <svg height='25px' version='1.1' viewbox='752 26 25 25' width='25px' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg'>
               <g fill-rule='evenodd' fill='none' id='location' stroke-width='1' stroke='none' transform='translate(753.000000, 27.000000)'>
@@ -321,14 +321,14 @@
       </div>
       <!-- Cols wrap -->
       <div class='footer-col-wrap'>
-        <div class='footer-col'>
+        <div class='footer-col' data-scroll='toggle(.fromBottomIn, .fromBottomOut), centerHorizontal, centerVertical, once'>
           <h3 class='footer-title'>O nama</h3>
           <p class='footer-text'>
             California trade d.o.o. je tvrtka specijalizirana za veleprodaju i maloprodaju staklene ambalaže. Osnovana je 1995. godine i danas je generalni distributer za srednju i južnu Dalmaciju programa tvrtke Vetropack.
           </p>
           <img alt='California Trade' src='img/california-logo.svg'>
         </div>
-        <div class='footer-col'>
+        <div class='footer-col' data-scroll='toggle(.fromBottomIn, .fromBottomOut), centerHorizontal, centerVertical, once'>
           <h3 class='footer-title'>Matični podatci</h3>
           <p class='footer-text'>
             OIB: 12412513616361
@@ -340,7 +340,7 @@
             NESTO: asit2j 32t2 3t
           </p>
         </div>
-        <div class='footer-col'>
+        <div class='footer-col' data-scroll='toggle(.fromBottomIn, .fromBottomOut), centerHorizontal, centerVertical, once'>
           <h3 class='footer-title'>Radno vrijeme</h3>
           <p class='footer-text'>
             PONEDJELJAK - PETAK
@@ -368,5 +368,11 @@
   <script src='http://code.jquery.com/jquery-latest.min.js' type='text/javascript'></script>
   <script src='min/script-min.js' type='text/javascript'></script>
   <script src='min/lightbox-min.js'></script>
+  <script src='min/ScrollTrigger.min-min.js'></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function(){
+      var trigger = new ScrollTrigger();
+    });
+  </script>
   
 </body>

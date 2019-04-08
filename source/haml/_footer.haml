@@ -3,7 +3,7 @@
 
     / Card Wrap
     .card-wrap
-      .footer-card
+      .footer-card(data-scroll="toggle(.fromBottomIn, .fromBottomOut), centerHorizontal, centerVertical, once")
         .footer-card__icon
           %svg(height="25px" version="1.1" viewbox="112 26 25 25" width="25px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink")
             %g#phone(fill="none" fill-rule="evenodd" stroke="none" stroke-width="1" transform="translate(113.000000, 27.000000)")
@@ -14,7 +14,7 @@
           %br
           Fax:  021 32 63 72 
 
-      .footer-card
+      .footer-card(data-scroll="toggle(.fromBottomIn, .fromBottomOut), centerHorizontal, centerVertical, once")
         .footer-card__icon
           %svg(height="25px" version="1.1" viewbox="432 26 25 25" width="25px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink")
             %g#email(fill="none" fill-rule="evenodd" stroke="none" stroke-width="1" transform="translate(433.000000, 27.000000)")
@@ -23,7 +23,7 @@
         .footer-card__text
           %a(href="mailto:california-trade@st.t-com.hr")california-trade@st.t-com.hr
 
-      .footer-card
+      .footer-card(data-scroll="toggle(.fromBottomIn, .fromBottomOut), centerHorizontal, centerVertical, once")
         .footer-card__icon
           %svg(height="25px" version="1.1" viewbox="752 26 25 25" width="25px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink")
             %g#location(fill="none" fill-rule="evenodd" stroke="none" stroke-width="1" transform="translate(753.000000, 27.000000)")
@@ -36,13 +36,13 @@
 
     / Cols wrap
     .footer-col-wrap
-      .footer-col
+      .footer-col(data-scroll="toggle(.fromBottomIn, .fromBottomOut), centerHorizontal, centerVertical, once")
         %h3.footer-title O nama
         %p.footer-text 
           California trade d.o.o. je tvrtka specijalizirana za veleprodaju i maloprodaju staklene ambalaže. Osnovana je 1995. godine i danas je generalni distributer za srednju i južnu Dalmaciju programa tvrtke Vetropack.
         %img(src="img/california-logo.svg" alt="California Trade")
 
-      .footer-col
+      .footer-col(data-scroll="toggle(.fromBottomIn, .fromBottomOut), centerHorizontal, centerVertical, once")
         %h3.footer-title Matični podatci
         %p.footer-text 
           OIB: 12412513616361
@@ -54,7 +54,7 @@
           NESTO: asit2j 32t2 3t
 
 
-      .footer-col
+      .footer-col(data-scroll="toggle(.fromBottomIn, .fromBottomOut), centerHorizontal, centerVertical, once")
         %h3.footer-title Radno vrijeme
         %p.footer-text 
           PONEDJELJAK - PETAK
@@ -80,3 +80,8 @@
 %script(src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript")
 %script(src="min/script-min.js" type="text/javascript")
 %script(src="min/lightbox-min.js")
+%script(src="min/ScrollTrigger.min-min.js")
+:javascript
+  document.addEventListener('DOMContentLoaded', function(){
+    var trigger = new ScrollTrigger();
+  });

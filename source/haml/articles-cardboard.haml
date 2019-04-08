@@ -18,15 +18,15 @@
     .container-jumbo
       / Staklo
       .section-row.glass.glass--left
-        .glass__img.img-karton
-        .glass__box
+        .glass__img.img-karton(data-scroll="toggle(.fromBottomIn, .fromBottomOut), centerHorizontal, centerVertical, once")
+        .glass__box(data-scroll="toggle(.fromBottomIn, .fromBottomOut), centerHorizontal, centerVertical, once")
           U našem asortimanu boca za vino možemo ponuditi boce različitih zapremina, boja stakla i oblika koji mogu zadovoljiti izborom svakog vinara ili ljubitelja vina. Zapremine boca su 1000 ml i 750 ml, a boje su zelena, bijela, olive i cuvee.
 
 
       / Cardboard
       .section-row.cardboard
         .container
-          .title-block.title-block--center
+          .title-block.title-block--center(data-scroll="toggle(.fromBottomIn, .fromBottomOut), centerHorizontal, centerVertical, once")
             %h1.title Kartonska <span>Ambalaža</span>
 
 
@@ -36,7 +36,7 @@
           .title-block.title-block--left
             /%h1.title Neka <span>sorta</span>
 
-          .article-list
+          .article-list(data-scroll="toggle(.fromBottomIn, .fromBottomOut), once")
 
             %a.article-item(href="articles-info-kartonska-1x-glatka.html")
               .article-item__overlay
