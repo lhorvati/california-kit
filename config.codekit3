@@ -4989,6 +4989,27 @@
 		"opt": 1,
 		"q": 81
 		},
+	"\/source\/img\/partners\/hps.png": {
+		"ft": 32768,
+		"iS": 10807,
+		"oA": 2,
+		"oAP": "\/build\/img\/partners\/hps.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 81
+		},
+	"\/source\/img\/partners\/vetropack-vertical.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/build\/img\/partners\/vetropack-vertical.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/source\/img\/sections\/glass-cepovi.jpg": {
 		"ft": 16384,
 		"iS": 50135,
@@ -5178,6 +5199,16 @@
 		"oIPL": 0,
 		"opt": 1,
 		"q": 81
+		},
+	"\/source\/img\/vetropack.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/build\/img\/vetropack.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/source\/js\/script.js": {
 		"ft": 64,
@@ -6962,7 +6993,7 @@
 	"displayValue": "Website-kit",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_green",
-	"lastBuiltDate": 576400157
+	"lastBuiltDate": 576490323
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
