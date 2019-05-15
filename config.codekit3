@@ -2759,6 +2759,186 @@
 		"uDQ": 0,
 		"uUN": 0
 		},
+	"\/source\/img\/about\/about1@1x.jpg": {
+		"ft": 16384,
+		"iS": 16913,
+		"oA": 2,
+		"oAP": "\/build\/img\/about\/about1@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/source\/img\/about\/about1@2x.jpg": {
+		"ft": 16384,
+		"iS": 56596,
+		"oA": 2,
+		"oAP": "\/build\/img\/about\/about1@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/source\/img\/about\/about2@1x.jpg": {
+		"ft": 16384,
+		"iS": 27709,
+		"oA": 2,
+		"oAP": "\/build\/img\/about\/about2@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/source\/img\/about\/about2@2x.jpg": {
+		"ft": 16384,
+		"iS": 86929,
+		"oA": 2,
+		"oAP": "\/build\/img\/about\/about2@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/source\/img\/about\/about3@1x.jpg": {
+		"ft": 16384,
+		"iS": 20534,
+		"oA": 2,
+		"oAP": "\/build\/img\/about\/about3@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/source\/img\/about\/about3@2x.jpg": {
+		"ft": 16384,
+		"iS": 62301,
+		"oA": 2,
+		"oAP": "\/build\/img\/about\/about3@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/source\/img\/about\/about4@1x.jpg": {
+		"ft": 16384,
+		"iS": 24517,
+		"oA": 2,
+		"oAP": "\/build\/img\/about\/about4@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/source\/img\/about\/about4@2x.jpg": {
+		"ft": 16384,
+		"iS": 73140,
+		"oA": 2,
+		"oAP": "\/build\/img\/about\/about4@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/source\/img\/about\/about5@1x.jpg": {
+		"ft": 16384,
+		"iS": 20565,
+		"oA": 2,
+		"oAP": "\/build\/img\/about\/about5@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/source\/img\/about\/about5@2x.jpg": {
+		"ft": 16384,
+		"iS": 59918,
+		"oA": 2,
+		"oAP": "\/build\/img\/about\/about5@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/source\/img\/about\/about6@1x.jpg": {
+		"ft": 16384,
+		"iS": 27386,
+		"oA": 2,
+		"oAP": "\/build\/img\/about\/about6@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/source\/img\/about\/about6@2x.jpg": {
+		"ft": 16384,
+		"iS": 87170,
+		"oA": 2,
+		"oAP": "\/build\/img\/about\/about6@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/source\/img\/about\/about7@1x.jpg": {
+		"ft": 16384,
+		"iS": 19836,
+		"oA": 2,
+		"oAP": "\/build\/img\/about\/about7@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/source\/img\/about\/about7@2x.jpg": {
+		"ft": 16384,
+		"iS": 58524,
+		"oA": 2,
+		"oAP": "\/build\/img\/about\/about7@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/source\/img\/about\/about8@1x.jpg": {
+		"ft": 16384,
+		"iS": 20018,
+		"oA": 2,
+		"oAP": "\/build\/img\/about\/about8@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/source\/img\/about\/about8@2x.jpg": {
+		"ft": 16384,
+		"iS": 50075,
+		"oA": 2,
+		"oAP": "\/build\/img\/about\/about8@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/source\/img\/about\/about@1x.jpg": {
+		"ft": 16384,
+		"iS": 50406,
+		"oA": 2,
+		"oAP": "\/build\/img\/about\/about@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
+	"\/source\/img\/about\/about@2x.jpg": {
+		"ft": 16384,
+		"iS": 205918,
+		"oA": 2,
+		"oAP": "\/build\/img\/about\/about@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
 	"\/source\/img\/articles\/aida-100.jpg": {
 		"ft": 16384,
 		"iS": 85786,
@@ -4889,6 +5069,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/source\/img\/contacts\/contact.jpg": {
+		"ft": 16384,
+		"iS": 134966,
+		"oA": 2,
+		"oAP": "\/build\/img\/contacts\/contact.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 81
+		},
 	"\/source\/img\/gallery\/hero-bg1.jpg": {
 		"ft": 16384,
 		"iS": 82117,
@@ -6993,7 +7183,7 @@
 	"displayValue": "Website-kit",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_green",
-	"lastBuiltDate": 576490323
+	"lastBuiltDate": 579599964
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
