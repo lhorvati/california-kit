@@ -578,7 +578,7 @@ section {
           animation-delay: 6s;
 }
 .cb-slideshow li:nth-child(3) span {
-  background-image: url("../img/hero/hero-bg3.jpg");
+  background-image: url("../img/hero/hero-bg-med.jpg");
   -webkit-animation-delay: 12s;
           animation-delay: 12s;
 }
