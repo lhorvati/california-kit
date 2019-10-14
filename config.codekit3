@@ -193,6 +193,12 @@
 	],
 "creatorBuild": "26330",
 "files": {
+	"\/build": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/build\/build",
+		"oF": 0
+		},
 	"\/README.md": {
 		"cB": 0,
 		"cS": 0,
@@ -5173,7 +5179,7 @@
 		},
 	"\/source\/img\/hero\/hero-bg2.jpg": {
 		"ft": 16384,
-		"iS": 89046,
+		"iS": 93152,
 		"oA": 2,
 		"oAP": "\/build\/img\/hero\/hero-bg2.jpg",
 		"oF": 0,
