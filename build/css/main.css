@@ -1457,6 +1457,16 @@ section {
   margin-right: 0;
 }
 #content.partners .partners-list .partners-item .partners-item__img {
+  display: -webkit-box;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
   width: 150px;
   height: 150px;
