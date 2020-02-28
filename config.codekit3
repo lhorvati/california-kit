@@ -5193,7 +5193,7 @@
 		},
 	"\/source\/img\/hero\/hero-bg2.jpg": {
 		"ft": 16384,
-		"iS": 93152,
+		"iS": 89046,
 		"oA": 2,
 		"oAP": "\/build\/img\/hero\/hero-bg2.jpg",
 		"oF": 0,
@@ -7279,7 +7279,7 @@
 	"displayValue": "Website-kit",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_green",
-	"lastBuiltDate": 597944091
+	"lastBuiltDate": 604571506
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
